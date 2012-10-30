@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22789DB4163EEFA8001F1417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DB3163EEFA8001F1417 /* UIKit.framework */; };
+		22789DB6163EEFA8001F1417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DB5163EEFA8001F1417 /* Foundation.framework */; };
+		22789DB8163EEFA8001F1417 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DB7163EEFA8001F1417 /* CoreGraphics.framework */; };
+		22789DBE163EEFA8001F1417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22789DBC163EEFA8001F1417 /* InfoPlist.strings */; };
+		22789DC0163EEFA8001F1417 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DBF163EEFA8001F1417 /* main.m */; };
+		22789DC4163EEFA8001F1417 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DC3163EEFA8001F1417 /* AppDelegate.m */; };
+		22789DC7163EEFA8001F1417 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22789DC5163EEFA8001F1417 /* MainStoryboard.storyboard */; };
+		22789DCA163EEFA8001F1417 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DC9163EEFA8001F1417 /* FirstViewController.m */; };
+		22789DCC163EEFA9001F1417 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 22789DCB163EEFA9001F1417 /* first.png */; };
+		22789DCE163EEFA9001F1417 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22789DCD163EEFA9001F1417 /* first@2x.png */; };
+		22789DD1163EEFA9001F1417 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DD0163EEFA9001F1417 /* SecondViewController.m */; };
+		22789DD3163EEFA9001F1417 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 22789DD2163EEFA9001F1417 /* second.png */; };
+		22789DD5163EEFA9001F1417 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22789DD4163EEFA9001F1417 /* second@2x.png */; };
+		22789DDD163EEFA9001F1417 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DDC163EEFA9001F1417 /* SenTestingKit.framework */; };
+		22789DDE163EEFA9001F1417 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DB3163EEFA8001F1417 /* UIKit.framework */; };
+		22789DDF163EEFA9001F1417 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22789DB5163EEFA8001F1417 /* Foundation.framework */; };
+		22789DE7163EEFA9001F1417 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22789DE5163EEFA9001F1417 /* InfoPlist.strings */; };
+		22789DEA163EEFA9001F1417 /* Heaven_s_MISAWATests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DE9163EEFA9001F1417 /* Heaven_s_MISAWATests.m */; };
+		22789DF5163EF373001F1417 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789DF4163EF373001F1417 /* CameraViewController.m */; };
+		22789DF9163F387A001F1417 /* misawa3icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 22789DF8163F387A001F1417 /* misawa3icon.png */; };
+		22789E07163F3DE7001F1417 /* editViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22789E06163F3DE7001F1417 /* editViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22789DE0163EEFA9001F1417 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22789DA6163EEFA8001F1417 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22789DAE163EEFA8001F1417;
+			remoteInfo = "Heaven's MISAWA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22789DAF163EEFA8001F1417 /* Heaven's MISAWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heaven's MISAWA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22789DB3163EEFA8001F1417 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22789DB5163EEFA8001F1417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22789DB7163EEFA8001F1417 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22789DBB163EEFA8001F1417 /* Heaven's MISAWA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heaven's MISAWA-Info.plist"; sourceTree = "<group>"; };
+		22789DBD163EEFA8001F1417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22789DBF163EEFA8001F1417 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22789DC1163EEFA8001F1417 /* Heaven's MISAWA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Heaven's MISAWA-Prefix.pch"; sourceTree = "<group>"; };
+		22789DC2163EEFA8001F1417 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22789DC3163EEFA8001F1417 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22789DC6163EEFA8001F1417 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		22789DC8163EEFA8001F1417 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		22789DC9163EEFA8001F1417 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		22789DCB163EEFA9001F1417 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		22789DCD163EEFA9001F1417 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		22789DCF163EEFA9001F1417 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		22789DD0163EEFA9001F1417 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		22789DD2163EEFA9001F1417 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		22789DD4163EEFA9001F1417 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		22789DDB163EEFA9001F1417 /* Heaven's MISAWATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heaven's MISAWATests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22789DDC163EEFA9001F1417 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		22789DE4163EEFA9001F1417 /* Heaven's MISAWATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Heaven's MISAWATests-Info.plist"; sourceTree = "<group>"; };
+		22789DE6163EEFA9001F1417 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22789DE8163EEFA9001F1417 /* Heaven_s_MISAWATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heaven_s_MISAWATests.h; sourceTree = "<group>"; };
+		22789DE9163EEFA9001F1417 /* Heaven_s_MISAWATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heaven_s_MISAWATests.m; sourceTree = "<group>"; };
+		22789DF3163EF373001F1417 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		22789DF4163EF373001F1417 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		22789DF8163F387A001F1417 /* misawa3icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = misawa3icon.png; path = ../misawa3icon.png; sourceTree = "<group>"; };
+		22789E05163F3DE7001F1417 /* editViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editViewController.h; sourceTree = "<group>"; };
+		22789E06163F3DE7001F1417 /* editViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22789DAC163EEFA8001F1417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DB4163EEFA8001F1417 /* UIKit.framework in Frameworks */,
+				22789DB6163EEFA8001F1417 /* Foundation.framework in Frameworks */,
+				22789DB8163EEFA8001F1417 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22789DD7163EEFA9001F1417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DDD163EEFA9001F1417 /* SenTestingKit.framework in Frameworks */,
+				22789DDE163EEFA9001F1417 /* UIKit.framework in Frameworks */,
+				22789DDF163EEFA9001F1417 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22789DA4163EEFA8001F1417 = {
+			isa = PBXGroup;
+			children = (
+				22789DB9163EEFA8001F1417 /* Heaven's MISAWA */,
+				22789DE2163EEFA9001F1417 /* Heaven's MISAWATests */,
+				22789DB2163EEFA8001F1417 /* Frameworks */,
+				22789DB0163EEFA8001F1417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22789DB0163EEFA8001F1417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22789DAF163EEFA8001F1417 /* Heaven's MISAWA.app */,
+				22789DDB163EEFA9001F1417 /* Heaven's MISAWATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22789DB2163EEFA8001F1417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22789DB3163EEFA8001F1417 /* UIKit.framework */,
+				22789DB5163EEFA8001F1417 /* Foundation.framework */,
+				22789DB7163EEFA8001F1417 /* CoreGraphics.framework */,
+				22789DDC163EEFA9001F1417 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22789DB9163EEFA8001F1417 /* Heaven's MISAWA */ = {
+			isa = PBXGroup;
+			children = (
+				22789DFD163F38F4001F1417 /* home */,
+				22789DFC163F38D1001F1417 /* TL */,
+				22789DFB163F38A7001F1417 /* camera */,
+				22789DFA163F389A001F1417 /* images */,
+				22789DC2163EEFA8001F1417 /* AppDelegate.h */,
+				22789DC3163EEFA8001F1417 /* AppDelegate.m */,
+				22789DC5163EEFA8001F1417 /* MainStoryboard.storyboard */,
+				22789DFE163F3A3A001F1417 /* edit */,
+				22789DBA163EEFA8001F1417 /* Supporting Files */,
+			);
+			path = "Heaven's MISAWA";
+			sourceTree = "<group>";
+		};
+		22789DBA163EEFA8001F1417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22789DBB163EEFA8001F1417 /* Heaven's MISAWA-Info.plist */,
+				22789DBC163EEFA8001F1417 /* InfoPlist.strings */,
+				22789DBF163EEFA8001F1417 /* main.m */,
+				22789DC1163EEFA8001F1417 /* Heaven's MISAWA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22789DE2163EEFA9001F1417 /* Heaven's MISAWATests */ = {
+			isa = PBXGroup;
+			children = (
+				22789DE8163EEFA9001F1417 /* Heaven_s_MISAWATests.h */,
+				22789DE9163EEFA9001F1417 /* Heaven_s_MISAWATests.m */,
+				22789DE3163EEFA9001F1417 /* Supporting Files */,
+			);
+			path = "Heaven's MISAWATests";
+			sourceTree = "<group>";
+		};
+		22789DE3163EEFA9001F1417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22789DE4163EEFA9001F1417 /* Heaven's MISAWATests-Info.plist */,
+				22789DE5163EEFA9001F1417 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22789DFA163F389A001F1417 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				22789DCB163EEFA9001F1417 /* first.png */,
+				22789DCD163EEFA9001F1417 /* first@2x.png */,
+				22789DD2163EEFA9001F1417 /* second.png */,
+				22789DD4163EEFA9001F1417 /* second@2x.png */,
+				22789DF8163F387A001F1417 /* misawa3icon.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		22789DFB163F38A7001F1417 /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				22789DF3163EF373001F1417 /* CameraViewController.h */,
+				22789DF4163EF373001F1417 /* CameraViewController.m */,
+			);
+			name = camera;
+			sourceTree = "<group>";
+		};
+		22789DFC163F38D1001F1417 /* TL */ = {
+			isa = PBXGroup;
+			children = (
+				22789DC8163EEFA8001F1417 /* FirstViewController.h */,
+				22789DC9163EEFA8001F1417 /* FirstViewController.m */,
+			);
+			name = TL;
+			sourceTree = "<group>";
+		};
+		22789DFD163F38F4001F1417 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				22789DCF163EEFA9001F1417 /* SecondViewController.h */,
+				22789DD0163EEFA9001F1417 /* SecondViewController.m */,
+			);
+			name = home;
+			sourceTree = "<group>";
+		};
+		22789DFE163F3A3A001F1417 /* edit */ = {
+			isa = PBXGroup;
+			children = (
+				22789E05163F3DE7001F1417 /* editViewController.h */,
+				22789E06163F3DE7001F1417 /* editViewController.m */,
+			);
+			name = edit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22789DAE163EEFA8001F1417 /* Heaven's MISAWA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22789DED163EEFA9001F1417 /* Build configuration list for PBXNativeTarget "Heaven's MISAWA" */;
+			buildPhases = (
+				22789DAB163EEFA8001F1417 /* Sources */,
+				22789DAC163EEFA8001F1417 /* Frameworks */,
+				22789DAD163EEFA8001F1417 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heaven's MISAWA";
+			productName = "Heaven's MISAWA";
+			productReference = 22789DAF163EEFA8001F1417 /* Heaven's MISAWA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22789DDA163EEFA9001F1417 /* Heaven's MISAWATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22789DF0163EEFA9001F1417 /* Build configuration list for PBXNativeTarget "Heaven's MISAWATests" */;
+			buildPhases = (
+				22789DD6163EEFA9001F1417 /* Sources */,
+				22789DD7163EEFA9001F1417 /* Frameworks */,
+				22789DD8163EEFA9001F1417 /* Resources */,
+				22789DD9163EEFA9001F1417 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22789DE1163EEFA9001F1417 /* PBXTargetDependency */,
+			);
+			name = "Heaven's MISAWATests";
+			productName = "Heaven's MISAWATests";
+			productReference = 22789DDB163EEFA9001F1417 /* Heaven's MISAWATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22789DA6163EEFA8001F1417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "前川 裕一";
+			};
+			buildConfigurationList = 22789DA9163EEFA8001F1417 /* Build configuration list for PBXProject "Heaven's MISAWA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22789DA4163EEFA8001F1417;
+			productRefGroup = 22789DB0163EEFA8001F1417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22789DAE163EEFA8001F1417 /* Heaven's MISAWA */,
+				22789DDA163EEFA9001F1417 /* Heaven's MISAWATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22789DAD163EEFA8001F1417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DBE163EEFA8001F1417 /* InfoPlist.strings in Resources */,
+				22789DC7163EEFA8001F1417 /* MainStoryboard.storyboard in Resources */,
+				22789DCC163EEFA9001F1417 /* first.png in Resources */,
+				22789DCE163EEFA9001F1417 /* first@2x.png in Resources */,
+				22789DD3163EEFA9001F1417 /* second.png in Resources */,
+				22789DD5163EEFA9001F1417 /* second@2x.png in Resources */,
+				22789DF9163F387A001F1417 /* misawa3icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22789DD8163EEFA9001F1417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DE7163EEFA9001F1417 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22789DD9163EEFA9001F1417 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22789DAB163EEFA8001F1417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DC0163EEFA8001F1417 /* main.m in Sources */,
+				22789DC4163EEFA8001F1417 /* AppDelegate.m in Sources */,
+				22789DCA163EEFA8001F1417 /* FirstViewController.m in Sources */,
+				22789DD1163EEFA9001F1417 /* SecondViewController.m in Sources */,
+				22789DF5163EF373001F1417 /* CameraViewController.m in Sources */,
+				22789E07163F3DE7001F1417 /* editViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22789DD6163EEFA9001F1417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22789DEA163EEFA9001F1417 /* Heaven_s_MISAWATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22789DE1163EEFA9001F1417 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22789DAE163EEFA8001F1417 /* Heaven's MISAWA */;
+			targetProxy = 22789DE0163EEFA9001F1417 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22789DBC163EEFA8001F1417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22789DBD163EEFA8001F1417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22789DC5163EEFA8001F1417 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22789DC6163EEFA8001F1417 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		22789DE5163EEFA9001F1417 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22789DE6163EEFA9001F1417 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22789DEB163EEFA9001F1417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22789DEC163EEFA9001F1417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22789DEE163EEFA9001F1417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heaven's MISAWA/Heaven's MISAWA-Prefix.pch";
+				INFOPLIST_FILE = "Heaven's MISAWA/Heaven's MISAWA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22789DEF163EEFA9001F1417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heaven's MISAWA/Heaven's MISAWA-Prefix.pch";
+				INFOPLIST_FILE = "Heaven's MISAWA/Heaven's MISAWA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22789DF1163EEFA9001F1417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heaven's MISAWA.app/Heaven's MISAWA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heaven's MISAWA/Heaven's MISAWA-Prefix.pch";
+				INFOPLIST_FILE = "Heaven's MISAWATests/Heaven's MISAWATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		22789DF2163EEFA9001F1417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Heaven's MISAWA.app/Heaven's MISAWA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Heaven's MISAWA/Heaven's MISAWA-Prefix.pch";
+				INFOPLIST_FILE = "Heaven's MISAWATests/Heaven's MISAWATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22789DA9163EEFA8001F1417 /* Build configuration list for PBXProject "Heaven's MISAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22789DEB163EEFA9001F1417 /* Debug */,
+				22789DEC163EEFA9001F1417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22789DED163EEFA9001F1417 /* Build configuration list for PBXNativeTarget "Heaven's MISAWA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22789DEE163EEFA9001F1417 /* Debug */,
+				22789DEF163EEFA9001F1417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		22789DF0163EEFA9001F1417 /* Build configuration list for PBXNativeTarget "Heaven's MISAWATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22789DF1163EEFA9001F1417 /* Debug */,
+				22789DF2163EEFA9001F1417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22789DA6163EEFA8001F1417 /* Project object */;
+}
